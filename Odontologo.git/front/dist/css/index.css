@@ -1,0 +1,36 @@
+.flex {
+    display: flex;
+}
+.block {
+    display: block;
+}
+.fondo {
+    background-color: #808080;
+}
+.a {
+    color: inherit;
+    text-decoration: none;
+}
+.head {
+    justify-content: space-between;
+    align-items: center;
+}
+.Va {
+    font-size: 20px;
+    border:  5px groove #08cad8b4;
+    background-color: #0a3463b4;
+    padding: 0px 24px;
+    border-radius: 200px;
+}
+.nombre {
+    text-align: center;
+    font-size: 150px;
+}
+.bien {
+    text-align: center;
+    font-size: 100px;
+}
+.noti {
+    text-align: center;
+    font-size: 40px;
+}
