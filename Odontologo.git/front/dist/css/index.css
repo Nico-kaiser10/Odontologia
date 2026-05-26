@@ -1,8 +1,26 @@
+h2 {
+  font-family: "Jua", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
+h4 {
+  font-family: "Fjalla One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+}
 .flex {
     display: flex;
 }
 .block {
-    display: block;
+    display: flex;
+    flex-direction: column;
+    gap: 100px; 
+}
+.logo {
+    width: 50px;
+    padding: 10px;
 }
 .fondo {
     background-color: #808080;
@@ -11,12 +29,15 @@
     color: inherit;
     text-decoration: none;
 }
+.boton {
+    display: flex;
+}
 .head {
     justify-content: space-between;
     align-items: center;
 }
 .Va {
-    font-size: 20px;
+    font-size: 25px;
     border:  5px groove #08cad8b4;
     background-color: #0a3463b4;
     padding: 0px 24px;
@@ -24,7 +45,7 @@
 }
 .nombre {
     text-align: center;
-    font-size: 150px;
+    font-size: 100px;
 }
 .bien {
     text-align: center;
@@ -33,4 +54,23 @@
 .noti {
     text-align: center;
     font-size: 40px;
+    margin-bottom: 30px;
+}
+.img {
+    display: flex;
+    justify-content: center; 
+    width: 30%;
+    gap: 20px;
+    margin: auto;
+    height: 50vh;
+    border: 5px inset #0d96cc;;
+    border-radius: 10px;
+}
+.news {
+    width: 30%;
+    margin: auto;
+    margin-top: 10px;
+    text-align: center;
+    border: 5px inset #0d96cc;
+    background-color: #1d7cf8;
 }
