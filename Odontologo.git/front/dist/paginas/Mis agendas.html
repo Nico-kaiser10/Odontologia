@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mis Agendas</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="../css/Mis agendas.css">
+</head>
+<body class="fondo">
+
+    <main>
+        
+        <header class="header-agenda">
+            <img class="logo" src="../asset/letra-d.png">
+            <div class="usuario-navegacion">
+                <a href="#" class="cerrar-sesion">Cerrar sesión</a>
+                <span class="nombre-id">USUARIO@5463</span>
+            </div>
+        </header>
+
+        <hr>
+
+        <h1 class="titulo">Mis Agendas</h1>
+
+        <div class="grid-contenido">
+            
+            <section class="columna-fechas">
+                
+                <div class="item-fecha">
+                    <span class="texto-fecha">22/2/2025</span>
+                    
+                    <input type="checkbox" id="control-22-2" class="modal-checkbox">
+                    
+                    <label for="control-22-2" class="capsula-flecha">
+                        <span class="flecha-v">▼</span>
+                    </label>
+
+                    <div class="modal-contenedor">
+                        <label for="control-22-2" class="modal-cerrar-fondo"></label>
+                        
+                        <div class="vista-agenda-modal">
+                            <div class="fila-fecha-modal">
+                                <span class="fecha-modal-titulo">22/2/2025</span>
+                                <label for="control-22-2" class="capsula-flecha-cerrar">
+                                    <span class="flecha-v">▲</span>
+                                </label>
+                            </div>
+
+                            <table class="tabla-agenda">
+                                <thead>
+                                    <tr>
+                                        <th>Hora</th>
+                                        <th>Odontologo</th>
+                                        <th>Tratamiento</th>
+                                        <th>Estado</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>17:00</td>
+                                        <td>Dr. House</td>
+                                        <td>Limpieza dental para la eliminación de sarro y placa bacteriana para prevenir enfermedades de las encías.</td>
+                                        <td>Realizado</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+
+                            <div class="nota-doctor">
+                                Nota del Dr: Se realizó limpieza dental para eliminar sarro y placa bacteriana. El procedimiento fue bien tolerado, sin complicaciones. Se recomienda mantener higiene oral adecuada y control en seis meses.
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="item-fecha">
+                    <span class="texto-fecha">6/5/2025</span>
+                    <button class="capsula-flecha"><span class="flecha-v">▲</span></button>
+                </div>
+
+                <div class="item-fecha">
+                    <span class="texto-fecha">14/9/2025</span>
+                    <button class="capsula-flecha"><span class="flecha-v">▲</span></button>
+                </div>
+
+                <div class="item-fecha">
+                    <span class="texto-fecha">16/12/2026</span>
+                    <button class="capsula-flecha"><span class="flecha-v">▲</span></button>
+                </div>
+
+                <div class="item-fecha">
+                    <span class="texto-fecha">20/5/2026</span>
+                    <button class="capsula-flecha"><span class="flecha-v">▲</span></button>
+                </div>
+
+            </section>
+
+            <section>
+                <div>
+                    <img  class="img" src="../asset/agenda.png">
+                </div>
+            </section>
+            
+        </div>
+
+    </main>
+
+</body>
+</html>
