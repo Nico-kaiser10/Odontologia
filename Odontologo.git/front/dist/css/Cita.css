@@ -9,7 +9,7 @@ h1 {
     display: flex;
 }
 .fondo {
-    background-color: rgb(5, 105, 163);
+    background-color: #2a9d8f;
 }
 .boton {
     display: flex;
@@ -37,6 +37,8 @@ main {
     padding: 0px 15px ;
 }
 .tabla {
+    background-color: rgba(10, 87, 187, 0.13);
+    border-radius: 50px;
     font-family: "Jua", sans-serif;
     width: 100%;
     max-width: 750px;
@@ -44,12 +46,11 @@ main {
     border-collapse: collapse;
 }
 .tabla td {
-    border: 3px solid #000000;
     padding: 20px 20px;
     width: 40%;
 }
 .col {
-    color: #ffffff;
+    color: #000000;
     font-size: 24px;
     width: 35%; 
     text-align: center;
@@ -71,4 +72,16 @@ main {
     display: flex;
     justify-content: center;
     width: 100%;
+}
+.confirmar {
+    font-family: "Jua", sans-serif;
+    font-size: 22px;
+    background-color: #0a3463b4; 
+    color: white;
+    padding: 12px 40px;
+    border-radius: 30px;
+}
+a. {
+    text-decoration: none;
+    color: inherit;
 }

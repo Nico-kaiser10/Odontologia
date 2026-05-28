@@ -1,0 +1,96 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4fdfc;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #2a9d8f;
+    color: white;
+    padding: 15px 30px;
+}
+
+.title {
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.user-info {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.logout {
+    background-color: orange;
+    color: white;
+    border: none;
+    padding: 8px 15px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.container {
+    padding: 20px;
+}
+
+.schedule-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    background-color: white;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.schedule-table th {
+    background-color: #2a9d8f;
+    color: white;
+    padding: 12px;
+    text-align: left;
+}
+
+.schedule-table td {
+    padding: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.schedule-table input {
+    width: 95%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.actions {
+    text-align: right;
+}
+
+.add-btn {
+    background-color: #21867a;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 5px;
+    font-size: 1em;
+}
+
+.add-btn:hover {
+    background-color: #2a9d8f;
+}
+.boton { 
+  background-color: orange;
+  border: none;
+  padding: 8px 12px;
+  color: white;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.a {
+    text-decoration: none;  
+    color: inherit; 
+}
