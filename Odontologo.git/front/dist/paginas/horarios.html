@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Control de Horarios - Odontología</title>
+  <link rel="stylesheet" href="../css/horario.css">
+</head>
+<body>
+  <header>
+    <h1>🦷 Control de Horarios</h1>
+    <div class="user-info">
+      <span>Admin@5463</span>
+      <button class="boton"><a class="a" href="../../index.html">Cerrar sesión</a></button>
+    </div>
+  </header>
+
+  <main>
+    <section class="schedule">
+      <table>
+        <thead>
+          <tr>
+            <th>Hora</th>
+            <th>Revisión</th>
+            <th>Consulta</th>
+            <th>Placa Dental</th>
+            <th>Limpieza</th>
+            <th>Acciones</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td>12:00</td>
+            <td>Mathias E.</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="action-btn">Opciones</button></td>
+          </tr>
+          <tr>
+            <td>13:25</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Gonzalo P.</td>
+            <td>-</td>
+            <td><button class="action-btn">Opciones</button></td>
+          </tr>
+          <tr>
+            <td>14:45</td>
+            <td>-</td>
+            <td>Enzo R.</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="action-btn">Opciones</button></td>
+          </tr>
+          <tr>
+            <td>15:20</td>
+            <td>Santiago F.</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td><button class="action-btn">Opciones</button></td>
+          </tr>
+          <tr>
+            <td>16:30</td>
+            <td>-</td>
+            <td>-</td>
+            <td>-</td>
+            <td>Renzo S.</td>
+            <td><button class="action-btn">Opciones</button></td>
+          </tr>
+        </tbody>
+      </table>
+    </section>
+  </main>
+
+  <div id="modal" class="modal">
+    <div class="modal-content">
+      <span class="close">&times;</span>
+      <h2>Opciones de Agenda</h2>
+      <p><strong>Acciones disponibles:</strong></p>
+      <ul>
+        <button class="modal-btn">Modificar</button>
+        <button class="modal-btn">Borrar</button>
+        <button class="modal-btn">Asistencia</button>
+        <textarea placeholder="Escribir una nota..."></textarea>
+        <button class="modal-btn">Guardar Nota</button>
+      </ul>
+    </div>
+  </div>
+
+  <script src="../js/srcipt.js"></script>
+</body>
+</html>
